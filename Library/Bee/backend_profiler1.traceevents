@@ -1,0 +1,501 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1681743515477679, "dur":2476, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681743515480167, "dur":109, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1681743515480294, "dur":253, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1681743515480547, "dur":309, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1681743515480910, "dur":1038, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681743515481948, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681743520510873, "dur":256, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681743520511129, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681743520511152, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681743520511158, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681743520511170, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681743520511174, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681743520511185, "dur":17, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681743520511202, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681743520511223, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681743520511257, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681743520511313, "dur":4420, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1681743515481575, "dur":386, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743515481966, "dur":6632, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743515488616, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681743515488742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743515491433, "dur":832, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681743515492275, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681743515492377, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743515493185, "dur":14624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681743515507812, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1681743515508011, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743515508323, "dur":20673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1681743515529063, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1681743515529261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743515529273, "dur":547982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1681743516077526, "dur":616184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":1, "ts":1681743516693717, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743516693727, "dur":25309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":1, "ts":1681743516719104, "dur":39745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743516758857, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743516759515, "dur":1301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743516760883, "dur":147132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743516908023, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743516908036, "dur":13839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743516921970, "dur":52322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743516974301, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743516974313, "dur":3323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743516977698, "dur":36366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517014153, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743517014169, "dur":2666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517016902, "dur":32623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517049535, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743517049547, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517051045, "dur":113441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517164494, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743517164505, "dur":1882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517166463, "dur":246458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517412930, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743517412944, "dur":3494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517416500, "dur":30057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517446567, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743517446583, "dur":2081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517448727, "dur":69312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517518046, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743517518060, "dur":2041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517520162, "dur":34231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517554400, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743517554411, "dur":7625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517562103, "dur":26556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517588668, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743517588681, "dur":15173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517603934, "dur":88158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517692101, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743517692113, "dur":5671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517697855, "dur":52670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517750533, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743517750545, "dur":1903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517752503, "dur":26863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517779375, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743517779390, "dur":1728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517781183, "dur":30973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517812162, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743517812172, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517813541, "dur":44631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517858180, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743517858193, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517859816, "dur":26190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517886014, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743517886027, "dur":2130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743517888225, "dur":242174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743518130409, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743518130426, "dur":4767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743518135286, "dur":53150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743518188444, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743518188455, "dur":1726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743518190243, "dur":217312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743518407562, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743518407574, "dur":2211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743518409845, "dur":62411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743518472264, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743518472278, "dur":1969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743518474320, "dur":78515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743518552842, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743518552853, "dur":10813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743518563832, "dur":17583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743518581423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743518581436, "dur":1704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743518583217, "dur":62967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743518646193, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743518646206, "dur":3996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743518650258, "dur":128243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743518778509, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743518778521, "dur":8402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743518786986, "dur":171067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743518958060, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743518958073, "dur":1744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743518959881, "dur":156305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743519116194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743519116205, "dur":1745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743519118009, "dur":97123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743519215140, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743519215152, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743519216735, "dur":70187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743519286931, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743519286943, "dur":2385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743519289384, "dur":416144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743519705534, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743519705545, "dur":4140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743519709755, "dur":227650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743519937412, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743519937423, "dur":2583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743519940071, "dur":208998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743520149079, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743520149096, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681743520151021, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1681743520151276, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743520151799, "dur":1666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1681743520153534, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1681743520153604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743520153702, "dur":3203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1681743520156979, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1681743520157047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743520157056, "dur":2113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1681743520159226, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681743520159285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743520159294, "dur":14114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681743520173469, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1681743520173545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743520173555, "dur":5127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1681743520178741, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1681743520178802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743520178811, "dur":7179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1681743520186055, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681743520186117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743520186126, "dur":25673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681743520211855, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1681743520211909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743520211918, "dur":17834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1681743520229808, "dur":4745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1681743520234561, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743520234573, "dur":5076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1681743520239716, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681743520239787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743520239796, "dur":5699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681743520245558, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681743520245626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743520245826, "dur":10821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681743520256705, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1681743520256763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681743520256768, "dur":11828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1681743520268652, "dur":242218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743515481579, "dur":394, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743515481973, "dur":6644, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743515488617, "dur":46416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1681743515535041, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743515535053, "dur":3125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1681743515538258, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1681743515538477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743515539781, "dur":3733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1681743515544668, "dur":574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1681743515545251, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743515545419, "dur":4133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1681743515549618, "dur":14024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1681743515563650, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743515563701, "dur":77566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1681743515641339, "dur":754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1681743515642098, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743515642108, "dur":427728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1681743516069921, "dur":714148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743516784115, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743516784126, "dur":23663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743516807867, "dur":125135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743516933011, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743516933023, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743516934601, "dur":59290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743516993900, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743516993913, "dur":2545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743516996535, "dur":40732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517037277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743517037289, "dur":3607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517040962, "dur":33136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517074105, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743517074117, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517075899, "dur":144642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517220548, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743517220559, "dur":1555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517222174, "dur":38159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517260341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743517260352, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517261922, "dur":76263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517338193, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743517338205, "dur":2217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517340488, "dur":81144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517421641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743517421652, "dur":4711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517426424, "dur":127252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517553684, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743517553696, "dur":2266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517556029, "dur":25443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517581481, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743517581494, "dur":1780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517583342, "dur":72284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517655634, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743517655647, "dur":1810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517657527, "dur":66730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517724264, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743517724437, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517726484, "dur":58071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517784563, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743517784576, "dur":3442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517788079, "dur":23212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517811299, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743517811310, "dur":1718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517813090, "dur":41626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517854732, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743517854780, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517856320, "dur":34708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517891036, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743517891048, "dur":1877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517892991, "dur":31254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517924252, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743517924263, "dur":1631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517925956, "dur":47394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517973358, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743517973436, "dur":16576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743517990275, "dur":76684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743518066966, "dur":188, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743518067165, "dur":6014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743518073251, "dur":72126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743518145387, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743518145401, "dur":2351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743518147829, "dur":113123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743518260960, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743518260973, "dur":2483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743518263522, "dur":133576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743518397106, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743518397117, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743518399230, "dur":3475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743518402712, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743518402723, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743518404305, "dur":145657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743518549970, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743518549982, "dur":1886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743518551936, "dur":1572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743518553514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743518553525, "dur":1709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743518555298, "dur":1479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743518556784, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743518556794, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743518558169, "dur":81499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743518639676, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743518639687, "dur":1437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743518641185, "dur":693041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743519334232, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743519334243, "dur":5290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743519339600, "dur":142354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743519481963, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743519482015, "dur":1802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743519483877, "dur":276352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743519760238, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743519760253, "dur":3542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743519763882, "dur":104158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743519868048, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743519868060, "dur":1779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743519869902, "dur":635071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743520504981, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681743520504993, "dur":5753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681743520510818, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1681743520510824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743515481657, "dur":328, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743515481985, "dur":6620, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743515488616, "dur":94355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1681743515582980, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743515639035, "dur":3258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1681743515642378, "dur":21219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1681743515663604, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743515663616, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1681743515665282, "dur":24124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1681743515689416, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743515689430, "dur":1547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1681743515691047, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1681743515691251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743515691262, "dur":15191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1681743515706585, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1681743515706802, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743515706814, "dur":21138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1681743515728036, "dur":272085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743516000130, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743516001019, "dur":2042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743516003135, "dur":679835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743516682981, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743516683106, "dur":7035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743516690208, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1681743516690434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743516696243, "dur":54858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1681743516751182, "dur":42650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743516793849, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743516803744, "dur":5373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743516809186, "dur":131250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743516940446, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743516940460, "dur":1646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743516942163, "dur":216215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743517158387, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743517158399, "dur":2613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743517161077, "dur":76292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743517237378, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743517237391, "dur":4246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743517241738, "dur":66946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743517308692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743517308703, "dur":2231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743517311022, "dur":191109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743517502139, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743517502151, "dur":5405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743517507622, "dur":34181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743517541810, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743517541823, "dur":7800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743517549687, "dur":84771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743517634466, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743517634726, "dur":2123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743517636921, "dur":90404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743517727333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743517727345, "dur":11690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743517739105, "dur":314592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743518053705, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743518053718, "dur":3171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743518056950, "dur":99703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743518156662, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743518156677, "dur":2610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743518159365, "dur":181157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743518340533, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743518340550, "dur":2220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743518342828, "dur":140056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743518482928, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743518482941, "dur":2607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743518485612, "dur":1561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743518487180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743518487192, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743518488670, "dur":125377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743518614056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743518614068, "dur":2220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743518616357, "dur":1684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743518618049, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743518618061, "dur":1570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743518619701, "dur":172650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743518792362, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743518792376, "dur":23279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743518815715, "dur":286037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743519101759, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743519101810, "dur":3171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743519105062, "dur":152775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743519257845, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743519257857, "dur":2097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743519260057, "dur":377941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743519638005, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743519638016, "dur":3941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743519642022, "dur":234433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743519876463, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743519876475, "dur":1761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743519878298, "dur":494785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743520373095, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681743520373108, "dur":2004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681743520375173, "dur":135676, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743515481704, "dur":290, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743515481994, "dur":6621, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743515488616, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1681743515488847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743515493021, "dur":23516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1681743515516611, "dur":21219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1681743515537952, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743515537964, "dur":2247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1681743515540289, "dur":98506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1681743515638803, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743515638817, "dur":2673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1681743515641570, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1681743515641753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743515642386, "dur":6658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1681743515649118, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1681743515649298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743515649389, "dur":19942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1681743515669407, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1681743515669597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743515669608, "dur":419385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1681743516089098, "dur":595270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor.exe" }}
+,{ "pid":12345, "tid":4, "ts":1681743516684377, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743516684389, "dur":14320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor.exe" }}
+,{ "pid":12345, "tid":4, "ts":1681743516698773, "dur":222870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743516921652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743516921665, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743516923439, "dur":90625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517014163, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743517014171, "dur":5906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517020140, "dur":31364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517051509, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743517051520, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517053197, "dur":36325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517089530, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743517089541, "dur":2175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517091776, "dur":30962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517122778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743517122789, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517124400, "dur":63858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517188267, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743517188278, "dur":2017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517190356, "dur":273796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517464159, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743517464170, "dur":1798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517466027, "dur":61131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517527325, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743517527338, "dur":3852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517531263, "dur":42309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517573580, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743517573592, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517575692, "dur":26538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517602237, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743517602248, "dur":2383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517604688, "dur":30900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517635595, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743517635607, "dur":16125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517651801, "dur":69664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517721473, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743517721485, "dur":1713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517723253, "dur":49577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517772838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743517772849, "dur":1983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517774895, "dur":24608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517799511, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743517799522, "dur":1508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517801088, "dur":105040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517906137, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743517906148, "dur":1930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517908137, "dur":32038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517940183, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743517940195, "dur":1965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743517942231, "dur":89046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743518031285, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743518031298, "dur":1687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743518033042, "dur":32868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743518065917, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743518065929, "dur":2374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743518069016, "dur":275047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743518344070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743518344082, "dur":2066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743518346209, "dur":442362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743518788579, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743518788593, "dur":2316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743518790972, "dur":333157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743519124137, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743519124149, "dur":2084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743519126291, "dur":184327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743519310625, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743519310637, "dur":2587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743519313282, "dur":365757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743519679048, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743519679060, "dur":7867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743519687003, "dur":327478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743520014489, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743520014501, "dur":8996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743520023571, "dur":51487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743520075066, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743520075078, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743520077106, "dur":127406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743520204520, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743520204533, "dur":12362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681743520216960, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1681743520217164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743520217173, "dur":22630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1681743520239856, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681743520239918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743520239924, "dur":6047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681743520246036, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1681743520246111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743520246118, "dur":2242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1681743520248422, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1681743520248573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743520248581, "dur":8041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1681743520256688, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681743520256757, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743520256766, "dur":11817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681743520268645, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Rock Paper Scissor_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1681743520268833, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681743520268843, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Rock Paper Scissor_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1681743520270200, "dur":240648, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681743520519605, "dur":3865, "ph":"X", "name": "ProfilerWriteOutput" }
+,
